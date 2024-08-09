@@ -31,7 +31,7 @@ export default function Navbar() {
             alt="15-ucl"
           />
         </div>
-        <div className="hidden lg:flex gap-4">
+        <div className="hidden lg:flex gap-7">
           {NAV_ITEM.map((item) => (
             <NavItem link={item.url} name={item.name} key={item.name} />
           ))}
