@@ -3,7 +3,7 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 import { LuUser } from "react-icons/lu";
 import { RxHamburgerMenu } from "react-icons/rx";
 import NavItem from "../../atoms/NavItem";
-import { NAV_ITEM } from "../../../constant/NAV_ITEM";
+import { NAV_ITEM } from "../../../constant/CONST";
 
 export default function Navbar() {
   const [isOpenNavbar, setIsOpenNavbar] = useState(false);
