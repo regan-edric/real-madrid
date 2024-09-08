@@ -1,5 +1,5 @@
-import { ITEMS_NEWS } from "../../../../../constant/CONST";
-import CardNews from "../../../../molecules/CardNews";
+import { ITEMS_NEWS } from "../../../constant/CONST";
+import CardNews from "../../atoms/CardNews";
 
 export default function Jumbotron() {
   return (

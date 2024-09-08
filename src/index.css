@@ -1,3 +1,56 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel {
+    & .swiper-slide {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        flex-basis: 100%;
+    }
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel {
+    & .swiper-slide {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        flex-basis: 100%;
+        /* Default fallback for mobile */
+    }
+}
+
+@media (max-width: 640px) {
+
+    /* Mobile: 1 item per view */
+    .carousel .swiper-slide {
+        flex-basis: 100%;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+
+    /* Tablet: 3 items per view */
+    .carousel .swiper-slide {
+        flex-basis: 33.33%;
+    }
+}
+
+@media (min-width: 1025px) {
+
+    .carousel .swiper-slide {
+        flex-basis: 25%;
+    }
+}

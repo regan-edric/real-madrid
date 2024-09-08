@@ -32,7 +32,7 @@ export default function CardNews({
                 className=" group-hover:scale-105 transition-all ease-in-out duration-[1800ms] roundedl--xl w-full"
               />
             </div>
-            <h1 className="text-xs lg:text-xl lg:py-8 py-2 font-bold text-slate-700 group-hover:text-indigo-700 transition-all duration-700 line-clamp-2">
+            <h1 className="text-xs lg:text-xl lg:py-8 py-2 font-bold text-slate-700 group-hover:text-indigo-700 transition-all duration-700 line-clamp-3">
               {caption}
             </h1>
           </div>
